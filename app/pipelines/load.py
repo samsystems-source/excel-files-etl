@@ -7,6 +7,6 @@ def load_excel(data_frame: pd.DataFrame, output_path: str, file_name:str) -> pd.
         os.mkdir(output_path)
 
     data_frame.to_excel(f"{output_path}/{file_name}.xlsx", index=False)
-    return "Arquivo criado com sucesso."
+    return "Arquivo criado com sucesso"
 
 
